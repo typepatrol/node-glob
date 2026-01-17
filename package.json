@@ -38,7 +38,6 @@
     "postversion": "npm publish",
     "prepublishOnly": "npm run benchclean; git push origin --follow-tags",
     "prepare": "tshy",
-    "pretest": "npm run prepare",
     "presnap": "npm run prepare",
     "test": "tap",
     "snap": "tap",
